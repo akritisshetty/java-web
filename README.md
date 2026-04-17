@@ -89,7 +89,7 @@ mvn clean install
 java -jar target/portfolio-1.0.0.jar
 
 # 4. Open in browser
-xdg-open http://localhost:8080
+xdg-open http://localhost:8082
 ```
 
 > **Hot reload**: With `spring-boot-devtools` on the classpath, run via  
@@ -104,7 +104,7 @@ xdg-open http://localhost:8080
 3. Tick `pom.xml` → **Finish**.  
 4. Wait for Maven to download dependencies (progress bar, bottom-right).  
 5. Right-click `PortfolioApplication.java` → **Run As ▸ Spring Boot App** (or **Java Application**).  
-6. Open `http://localhost:8080` in your browser.
+6. Open `http://localhost:8082` in your browser.
 
 ---
 
